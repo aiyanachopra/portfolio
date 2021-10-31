@@ -1,0 +1,136 @@
+@media screen and (min-width: 800px){
+    nav.flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    ul {        
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+        ul li {
+            margin: 0;
+
+          
+        }
+}
+
+body{
+	margin:1%;
+	padding:1%;
+    font-size:150%;
+    background-image: url("../images/paint.JPEG");
+    background-color: lightpink ;
+    background-repeat:no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 50px; 
+    font-weight: bold;
+    color: rgb(99, 0, 69)
+    
+    
+}
+
+/*Style the images*/
+img{
+    height: 200px;
+    width:auto;
+    border: 3px solid midnightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 40px; 
+    font-weight: bold;
+    color: midnightblue;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+
+header{
+    font-size: 18px;
+    border: 1px solid midnightblue;
+	margin: 10px 0;
+}
+
+main, h1, footer{
+    font-family: garamond;
+	border: 1px solid midnightblue;
+	margin: 10px 0;
+}
+
+nav{
+    font-family: garamond;
+	border: 1px solid midnightblue;
+    margin: 10px 0;
+    
+}
+
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	padding:10px;
+	width:19%;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+nav .current{
+    background-color: lightcyan;
+    font-weight: bold;
+
+}
+
+
+a{
+    color:midnightblue
+}
+/*Added this so the links stay the same color*/
+a:visited{color:midnightblue}
+
+a:hover{
+    background-color: #e7f6fa;
+    text-decoration-style:dotted;
+  }
+
+/*food page gallery flex*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.gallery > img{
+    width: auto;
+    border-style: solid;
+    border-color: midnightblue;
+    border-width: 3px;
+    padding: 5px;
+    margin: 10px;
+}
+
