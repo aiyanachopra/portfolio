@@ -92,8 +92,10 @@ items in the nav section*/
 nav li{
 	padding:10px;
 	width:19%;
-    display: inline-block;
+    display: flex;
     text-align: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 nav .current{
