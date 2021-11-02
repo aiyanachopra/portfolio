@@ -24,8 +24,8 @@ body{
 	margin:1%;
 	padding:1%;
     font-size:150%;
-    background-image: url("../images/square.JPEG");
-    background-color: lightpink ;
+    background-image: url("../images/finalcanva.JPEG");
+    background-color: rgb(255, 176, 189) ;
     background-repeat:no-repeat;
     background-size: cover ;
     background-position: center;
@@ -69,17 +69,19 @@ space too*/
 header{
     font-size: 18px;
     border: 1px solid midnightblue;
-	margin: 10px 0;
+    margin: 10px 0;
+    
 }
 
 main, h1, footer{
     font-family: "optima";
 	border: 1px solid midnightblue;
-	margin: 10px 0;
+    margin: 10px 0;
 }
 
 nav{
-    font-family: garamond;
+    font-family: "optima";
+    background-color: rgb(250, 227, 231);
 	border: 1px solid midnightblue;
     margin: 10px 0;
     
